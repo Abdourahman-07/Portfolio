@@ -1,0 +1,15 @@
+export const skills = [
+  { language: "HTML", level: "expert" },
+  { language: "CSS", level: "expert" },
+  { language: "Javascript", level: "intermédiaire" },
+  { language: "React", level: "intermédiaire" },
+  { language: "Next.js", level: "débutant" },
+  { language: "MongoDB", level: "débutant" },
+  { language: "SEO", level: "débutant" },
+  { language: "Anglais", level: "intermédiaire" },
+  { language: "Design", level: "débutant" },
+  { language: "Figma", level: "intermédiaire" },
+  { language: "Git", level: "intermédiaire" },
+  { language: "GitHub", level: "intermédiaire" },
+  { language: "SCSS", level: "intermédiaire" },
+];

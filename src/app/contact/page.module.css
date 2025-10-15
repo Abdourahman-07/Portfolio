@@ -1,0 +1,82 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(116, 153, 159), white);
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  border-radius: 50px;
+}
+
+.inputName,
+.inputMail,
+.inputText {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(233, 219, 195);
+  width: 90%;
+}
+
+.inputName {
+  height: 60px;
+  border-radius: 30px 30px 0px 0px;
+}
+.inputName input {
+  width: 70%;
+  border: none;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.inputMail {
+  height: 60px;
+}
+.inputMail input {
+  width: 70%;
+  border: none;
+}
+
+.inputName p,
+.inputMail p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+.inputText {
+  border-radius: 0px 0px 30px 30px;
+  margin-bottom: 10px;
+}
+.inputText textarea {
+  border: none;
+  height: 200px;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .inputName,
+  .inputMail {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .inputName p,
+  .inputMail p {
+    width: 100%;
+    margin: 5px;
+    font-size: 1em;
+  }
+
+  .inputName input,
+  .inputMail input {
+    height: 50px;
+    width: 100%;
+  }
+}

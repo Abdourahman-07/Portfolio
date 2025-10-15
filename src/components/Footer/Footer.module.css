@@ -1,0 +1,26 @@
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+  background: linear-gradient(to right, rgb(116, 153, 159), white);
+}
+.footer div {
+  text-align: center;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(116, 153, 159);
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    flex-direction: column;
+  }
+}

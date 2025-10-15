@@ -1,0 +1,91 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.linksBox {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(116, 153, 159), white);
+}
+.link {
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  width: 400px;
+}
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgb(116, 153, 159), white);
+  border-radius: 60px;
+  width: 50%;
+}
+
+.imageBox {
+  border-radius: 50px;
+  margin: 5px 5px 5px 5px;
+}
+.titleBox h1 {
+  margin: 5px;
+}
+
+.contactBox {
+  margin: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 1170px) {
+  .link {
+    font-size: 1.2em;
+  }
+
+  .presentation {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    position: relative;
+    height: 200px;
+  }
+  .link {
+    font-size: 0.8em;
+  }
+
+  .presentation {
+    width: 75%;
+    font-size: 0.5em;
+  }
+  .imageBox {
+    height: 60px;
+    width: 60px;
+  }
+}

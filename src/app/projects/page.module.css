@@ -1,0 +1,166 @@
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 50px 15px 50px;
+}
+
+.containerReduced {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.projectCard {
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  height: 300px;
+  background: linear-gradient(to right, rgb(116, 153, 159), white);
+}
+
+.projectLogo {
+  display: flex;
+  justify-content: center;
+}
+.projectLogo img {
+  border-radius: 50px;
+}
+.resume {
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  height: 60%;
+  background-color: rgb(209, 227, 243);
+  border-radius: 30px 30px 0px 0px;
+}
+
+.modal {
+  overflow-y: auto;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 0px;
+  padding: 40px 40px 60px 40px;
+  background-color: rgb(233, 219, 195);
+}
+
+.closeModal {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+}
+
+.modalLogo {
+  height: 60px;
+  width: 200px;
+}
+
+.modalLogo img {
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sectionShort {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.languages {
+  background-color: rgb(209, 227, 243);
+  border-color: black;
+  border-width: 2px 2px 0px 2px;
+  border-style: solid;
+  width: 50%;
+  text-align: center;
+}
+.languages p {
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  font-weight: 700;
+}
+
+.modalResume {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 227, 243);
+  width: 50%;
+  border: 2px solid black;
+}
+
+.modalDescription {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+  background-image: url("/home-image1.jpg");
+}
+
+.modalDescription p {
+  margin: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .projectsContainer {
+    padding: 0px;
+  }
+
+  .projectCard {
+    font-size: 0.7em;
+    height: 250px;
+    width: 100%;
+  }
+
+  .containerReduced {
+    display: none;
+  }
+
+  .modal {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .closeModal {
+    top: 5px;
+    right: 5px;
+  }
+
+  .sectionShort {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .languages,
+  .modalResume {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .modalDescription {
+    font-size: 1em;
+  }
+}

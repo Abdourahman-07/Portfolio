@@ -1,0 +1,23 @@
+.button {
+  background: linear-gradient(to right, #e2e2e2, rgb(68, 95, 99) 50%);
+  color: white;
+  border: solid 2px black;
+  padding: 10px 40px 10px 40px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+.radiusAll {
+  border-radius: 30px;
+}
+
+.radiusBottom {
+  border-radius: 0 0 30px 30px;
+}
+
+.widthBig {
+  width: 100%;
+}
