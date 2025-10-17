@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://portfolio-theta-orcin-51.vercel.app/sitemap.xml
