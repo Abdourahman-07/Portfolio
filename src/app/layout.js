@@ -10,7 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://portfolio-theta-orcin-51.vercel.app"),
+  metadataBase: new URL(
+    "https://abdourahman-laloue-developpeur-front-end.vercel.app"
+  ),
   title: "Portfolio Abdourahman Laloue développeur front-end React/Next.js",
   description:
     "Portfolio de Abdourahman Laloue, développeur front-end spécialisé en React et Next.js. Découvrez ses réalisations, compétences web (HTML, CSS, JavaScript, MongoDB) et son parcours professionnel. Contactez-le pour vos projets de création d'interfaces modernes et performantes.",
